@@ -4,13 +4,73 @@ const widgetSDK = new AdaWidgetSDK();
 
 const containerElement = document.getElementById("widget-container");
 const sdkInputElement = document.getElementById("widget-input-data");
-const inputElement = document.getElementById("input-field");
-const submitButtonElement = document.getElementById("submit-button");
+//const inputElement = document.getElementById("input-field");
+
+//All Submit Buttons
+const submitButton1Element = document.getElementById("submit-button1");
+const submitButton2Element = document.getElementById("submit-button2");
+const submitButton3Element = document.getElementById("submit-button3");
+const submitButton4Element = document.getElementById("submit-button4");
+const submitButton5Element = document.getElementById("submit-button5");
+
 const submitMessageElement = document.getElementById("submit-message");
 
-submitButtonElement.onclick = () => {
+submitButton1Element.onclick = () => {
   widgetSDK.sendUserData({
-    responseData: inputElement.value
+    responseData: "Option 1"
+  }, (event) => {
+    if (event.type === "SEND_USER_DATA_SUCCESS") {
+      submitMessageElement.innerText = "Data was successfully submitted";
+      submitButtonElement.disabled = true;
+    } else {
+      submitMessageElement.innerText = "Data submission failed, please try again";
+    }
+  });
+};
+
+submitButton2Element.onclick = () => {
+  widgetSDK.sendUserData({
+    responseData: "Option 2"
+  }, (event) => {
+    if (event.type === "SEND_USER_DATA_SUCCESS") {
+      submitMessageElement.innerText = "Data was successfully submitted";
+      submitButtonElement.disabled = true;
+    } else {
+      submitMessageElement.innerText = "Data submission failed, please try again";
+    }
+  });
+};
+
+
+submitButton3Element.onclick = () => {
+  widgetSDK.sendUserData({
+    responseData: "Option 3"
+  }, (event) => {
+    if (event.type === "SEND_USER_DATA_SUCCESS") {
+      submitMessageElement.innerText = "Data was successfully submitted";
+      submitButtonElement.disabled = true;
+    } else {
+      submitMessageElement.innerText = "Data submission failed, please try again";
+    }
+  });
+};
+
+submitButton4Element.onclick = () => {
+  widgetSDK.sendUserData({
+    responseData: "Option 4"
+  }, (event) => {
+    if (event.type === "SEND_USER_DATA_SUCCESS") {
+      submitMessageElement.innerText = "Data was successfully submitted";
+      submitButtonElement.disabled = true;
+    } else {
+      submitMessageElement.innerText = "Data submission failed, please try again";
+    }
+  });
+};
+
+submitButton5Element.onclick = () => {
+  widgetSDK.sendUserData({
+    responseData: "Option 5"
   }, (event) => {
     if (event.type === "SEND_USER_DATA_SUCCESS") {
       submitMessageElement.innerText = "Data was successfully submitted";

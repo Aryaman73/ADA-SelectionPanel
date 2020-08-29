@@ -1,19 +1,87 @@
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Example Widget</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
 
-  <body>
-    <div id="widget-container">
-      <div id="widget-input-data">Loading...</div>
-      <input id="input-field">
-      <button id="submit-button">Submit</button>
-      <div id="submit-message"></div>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Example Widget</title>
+</head>
+
+<body>
+
+  <div id="widget-container" class="container">
+    <div class="carousel carousel-slider center">
+      <div class="carousel-item red white-text" href="#one!">
+        <h2> <i> Tab Value </i> 🤑 </h2>
+        <h3 class="white-text"> <b> $30 </b> </h3>
+        <p class="white-text">1 GB Shock Free Data</p>
+        <p class="white-text">0 minutes</p>
+        <p class="white-text">Unlimited Text Messaging</p>
+        <a id="submit-button1" class="btn-floating black pulse">
+          <i class="material-icons">check</i>
+        </a>
+      </div>
+      <div class="carousel-item purple white-text" href="#two!">
+        <h2> <i> Tab Basic </i> 😀 </h2>
+        <h3 class="white-text"> <b> $40 </b> </h3>
+        <p class="white-text">2.5 GB Shock Free Data</p>
+        <p class="white-text">Unlimited Nationwide Calling</p>
+        <p class="white-text">Unlimited Text Messaging</p>
+        <a id="submit-button2" class="btn-floating black pulse">
+          <i class="material-icons">check</i>
+        </a>
+      </div>
+      <div class="carousel-item green white-text" href="#three!">
+        <h2> <i> Tab Pro </i> 😎  </h2>
+        <h3 class="white-text"> <b> $55 </b> </h3>
+        <p class="white-text">9 GB Shock Free Data</p>
+        <p class="white-text">Unlimited US & Canada Calling</p>
+        <p class="white-text">Unlimited International Text Messaging</p>
+        <a id="submit-button3" class="btn-floating black pulse">
+          <i class="material-icons">check</i>
+        </a>
+      </div>
+      <div class="carousel-item blue white-text" href="#four!">
+        <h2> <i> Tab Pro Plus </i> 🔥</h2>
+        <h3 class="white-text"> <b> $70 </b> </h3>
+        <p class="white-text">15 GB Shock Free Data</p>
+        <p class="white-text">Unlimited US & Canada Calling</p>
+        <p class="white-text">Unlimited International Text Messaging</p>
+        <a id="submit-button4" class="btn-floating black pulse">
+          <i class="material-icons">check</i>
+        </a>
+      </div>
+      <div class="carousel-item black white-text" href="#cancel!">
+        <p class="white-text"> <b> Don't like any of our plans? 😪 </b> </p>
+        <img margin="10" src="./src/sad_cat.jpg" width="30%" height="200">
+        <!-- <iframe height="70%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29120.30917614816!2d-80.52575378174403!3d43.48837887305365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x10f5d8ced33d8abf!2sKoodo%20Shop!5e0!3m2!1sen!2sca!4v1598737633284!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
+        <p class="white-text"> That's okay! You can have a look at our other products, or talk to an agent!  </p>
+        <a id="submit-button5" class="btn-floating red pulse">
+          <i class="material-icons">close</i>
+        </a>
+      </div>
     </div>
-  </body>
+
+  </div>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $('.carousel.carousel-slider').carousel({
+      fullWidth: true,
+      indicators: true,
+    });
+  </script>
+</body>
 
 </html>
