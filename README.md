@@ -1,6 +1,18 @@
 # SelectionPanel
 
-App created for ADA Hackathon!
+App created for ADA Hackathon 2020, by Aryaman Singh and Nick Rocha. 2nd Place! 🥈
+
+
+## Demo Videos & Market Research:
+SelectionPanel Demo: https://youtu.be/azzB6HmSImY
+
+Alternative Panels (Retail and Location): https://youtu.be/N2lKW0lS0Rg
+
+Link to description of project and Market Research: http://aryamans.me/assets/SelectionPanelAda.pdf
+
+
+## Tech Stack
+The app uses the ADA Template, which uses HTML, CSS, JavaScript and the ADA SDK. We used MaterializeCSS to design the item carousel, along with Material-UI icons by Google.
 
 Steps to get it working after cloning the repository:
 
@@ -13,8 +25,3 @@ Note: You must run ngrok on another terminal (yarn and ngrok must be running con
 
 # Alternative Panels
 You can switch to the alternative-panels branch to look at the code for the retail and location panels! Note that the ADA Bot is only meant to be used with master (Koodo Phone Plan), so the bot messages wouldn't make much sense with alternative-panels. 
-
-## Technical Stack
-The app uses the ADA Template, which uses HTML, CSS, JavaScript and the ADA SDK. We used MaterializeCSS to design the item carousel, along with Material-UI icons by Google.
-
-Made by Aryaman Singh and Nick Rocha 😁
