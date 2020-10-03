@@ -4,7 +4,7 @@ App created for ADA Hackathon 2020, by Aryaman Singh and Nick Rocha. 2nd Place! 
 
 
 ## Demo Videos & Market Research:
-SelectionPanel Demo: https://youtu.be/azzB6HmSImY
+SelectionPanel Demo: https://youtu.be/azzB6HmSImY (ignore the music, YouTube added it 😑)
 
 Alternative Panels (Retail and Location): https://youtu.be/N2lKW0lS0Rg
 
